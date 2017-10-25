@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## FPG11-70 - An Emulation of the PDP11/70 System on an FPGA
 
-You can use the [editor on GitHub](https://github.com/13mtfb/FPG11-70/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The purpose of this project is to create a PDP11-70 emulation on an FPGA to run an untouched (as much as possible) version of RSX11-M. I want to stay true to the hardware architecture as much as possible.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The bulk of the information required to understand this project will be documented in the [Wiki](https://github.com/13mtfb/FPG11-70/wiki).
 
-### Markdown
+## Installation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The project was developed using Quartus II 64-Bit Version 13.0.1 (Service Pack 1 Installed). The project can be opened from Quartus using the FPG11-70.qpf file. Alternatively, the following instructions can be followed to setup a new project.
 
-```markdown
-Syntax highlighted code block
+1. File -> New... -> New Quartus II Project
+2. The working directory for this project is:
+/home/everest/Documents/FPGA/FPG11-70/FPG11-70/src/KB11-C
+3. The name of the project is:
+FPG11-70
+4. Import all Verilog (.v) files from the /src/ directories
+5. Family & Device Settings:
+Family: Cyclone II
+Package: EP2C20F484C7
+6. EDA Tool Settings
+Design Entry/Synthesis: None
+Simulation: ModelSim-Altera
+Formal Verification: None
+7. Click Next -> Finish
 
-# Header 1
-## Header 2
-### Header 3
+## Usage
 
-- Bulleted
-- List
+To be added!!
 
-1. Numbered
-2. List
+## Contributing
 
-**Bold** and _Italic_ and `Code` text
+Create an issue to contribute to the project.
 
-[Link](url) and ![Image](src)
-```
+## License
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This project is uses information released by Digital Equipment Corporation and was found at http://bitsavers.trailing-edge.com/pdf/dec/pdp11/1170/.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/13mtfb/FPG11-70/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
