@@ -6,22 +6,13 @@ The bulk of the information required to understand this project will be document
 
 ## Installation
 
-The project was developed using Quartus II 64-Bit Version 13.0.1 (Service Pack 1 Installed). The project can be opened from Quartus using the FPG11-70.qpf file. Alternatively, the following instructions can be followed to setup a new project.
+The project was developed using Vivado 2018.2. The following settings can be followed to setup a new project.
 
-1. File -> New... -> New Quartus II Project
-2. The working directory for this project is:
-/home/everest/Documents/FPGA/FPG11-70/FPG11-70/src/KB11-C
-3. The name of the project is:
-FPG11-70
-4. Import all Verilog (.v) files from the /src/ directories
-5. Family & Device Settings:
-Family: Cyclone II
-Package: EP2C20F484C7
-6. EDA Tool Settings
-Design Entry/Synthesis: None
-Simulation: ModelSim-Altera
-Formal Verification: None
-7. Click Next -> Finish
+Default Part: xc7a35ticsg324-1L
+Product: Artix-7
+Family: Artix-7
+Package: CSG324
+Speed Grade: -1L
 
 ## Usage
 
